@@ -13,3 +13,36 @@
     border-radius: 10px;
     box-shadow: 3px 3px 8px #1a1a1a;
 }
+
+.produtos__card__imagem {
+    max-width: 100%;
+    height: 100px;
+}
+
+.produtos__card__imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.produtos__card__content {
+    height: calc(100% - 100px);
+    padding: .5em 0 0 .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produtos__card__content h2 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.produtos__card__valor {
+    color: #ab520d;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 1em;
+}
