@@ -38,6 +38,11 @@ body {
     color: black;
     border-radius: 5px;
     box-shadow: 3px 3px 8px #1a1a1a;
+    width: 5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
