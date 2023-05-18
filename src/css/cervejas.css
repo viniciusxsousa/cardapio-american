@@ -1,4 +1,15 @@
 .produtos {
-    height: 60vh;
     background-color: #E6E3C8;
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produtos__card {
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #1a1a1a;
 }
