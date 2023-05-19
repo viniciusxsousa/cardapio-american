@@ -1,6 +1,9 @@
-.produtos {
+.main {
     background-color: #E6E3C8;
     padding: 1.5em;
+}
+
+.produtos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
