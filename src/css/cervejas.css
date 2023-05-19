@@ -3,6 +3,11 @@
     padding: 1.5em;
 }
 
+.main__title {
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+}
+
 .produtos {
     display: flex;
     flex-wrap: wrap;
