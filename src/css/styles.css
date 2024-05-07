@@ -89,6 +89,10 @@ body {
     justify-content: center;
 }
 
+.cardapioMenu__button:last-child {
+    color: rgb(228, 3, 3);
+}
+
 .footer {
     background-color: #2f0601;
     height: 30vh;
