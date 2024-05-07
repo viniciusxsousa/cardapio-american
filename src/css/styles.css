@@ -37,6 +37,11 @@ body {
     font-weight: 500;
 }
 
+.modal__box img {
+    width: 100%;
+    height: calc(100% - 1.81em);
+}
+
 
 
 .header {
