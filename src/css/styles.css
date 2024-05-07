@@ -2,11 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hide {
-    display: none !important;
-}
-
-#modal {
+.modal {
     position: absolute;
     top: 0;
     left: 0;
@@ -19,7 +15,11 @@ body {
     align-items: center;
 }
 
-.modal-box {
+.hide {
+    display: none;
+}
+
+.modal__box {
     box-sizing: border-box;
     background-color: white;
     width: 85%;
@@ -28,7 +28,7 @@ body {
     border-radius: 8px;
 }
 
-.modal-box button:first-child {
+.modal__box button:first-child {
     border: none;
     background-color: transparent;
     display: block;
