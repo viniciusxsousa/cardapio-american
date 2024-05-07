@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 20vh;
+    background-color: #2f0601;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    width: 12em;
+}
+
+.header__title {
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.main {
+    background-color: #E6E3C8;
+    padding: 1.5em;
+}
+
+.main__title {
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produtos__card {
+    background-color: white;
+    width: 150px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #1a1a1a;
+}
+
+.produtos__card__imagem {
+    max-width: 100%;
+    height: 100px;
+}
+
+.produtos__card__imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.produtos__card__content {
+    height: calc(100% - 100px);
+    padding: .5em 0 0 .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produtos__card__content h2 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.produtos__card__valor {
+    color: #ab520d;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 1em;
+}
+
+
+.footer {
+    background-color: #2f0601;
+    height: 30vh;
+    padding-top: 1px;
+    text-align: center;
+    color: #ba5c12;
+}
+
+.footer__title {
+    font-family: 'Cinzel', serif;
+}
+
+.footer__social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer__social i {
+    font-size: 1.6em;
+}
