@@ -35,11 +35,13 @@ body {
     margin-left: auto;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 .modal__box img {
     width: 100%;
-    height: calc(100% - 1.81em);
+    height: calc(100% - 2.81em);
+    border-radius: 5px;
 }
 
 
